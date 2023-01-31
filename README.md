@@ -4,6 +4,25 @@ This extension converts Markdown files to pdf, html, png or jpeg files.
 
 [Japanese README](README.ja.md)
 
+## Yghore - Idea for a new feature
+
+### Implements : 
+
+- markdown-it-texmath (https://www.npmjs.com/package/markdown-it-texmath)
+  - For converted a latex math formula to image
+
+- (?) markdown-it-obsidian-images (https://www.npmjs.com/package/markdown-it-obsidian-images)
+  - see https://help.obsidian.md/How+to/Format+your+notes#Images
+
+### New It ? :
+
+Create a new markdown-it plugin for customers objects.
+Example : 
+```
+\pagebreak = <div class="pagebreak"></div>
+\superdiv str superdiv/ = <div class="superdiv">{{str}}</div>
+```
+
 ## Table of Contents
 <!-- TOC depthFrom:2 depthTo:2 updateOnSave:false -->
 
